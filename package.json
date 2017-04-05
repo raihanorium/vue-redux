@@ -1,0 +1,26 @@
+{
+  "name": "vue-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "webpack": "webpack",
+    "start": "webpack --watch"
+  },
+  "author": "raihan.dk@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "redux": "^3.6.0",
+    "vue": "^2.2.6",
+    "vue-router": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "webpack": "^2.3.3"
+  }
+}
