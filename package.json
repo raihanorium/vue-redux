@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
-    "webpack": "webpack",
-    "start": "webpack --watch"
+    "watch": "webpack --watch",
+    "start": "npm run watch"
   },
   "author": "raihan.dk@gmail.com",
   "license": "ISC",
